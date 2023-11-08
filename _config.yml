@@ -23,4 +23,4 @@ defaults:
 # GitHub pages
 title: "Jekyll Test"
 url: "https://danielthefletch.github.io"
-baseurl: ""
+baseurl: "/jekyll-test"
