@@ -3,24 +3,26 @@ collections:
   authors:
     output: true
 
-# Front matter defaults
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
 
 # GitHub pages
 title: "Jekyll Test"
 url: "https://danielthefletch.github.io"
 baseurl: "/jekyll-test"
+
+
+# Front matter defaults
+defaults:
+  - scope:
+      path: {{baseurl}}
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: {{baseurl}}
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: {{baseurl}}
+    values:
+      layout: "default"
