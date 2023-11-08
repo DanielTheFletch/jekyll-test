@@ -20,7 +20,5 @@ defaults:
     values:
       layout: "default"
 
-# GitHub pages configuration
-domain: danielthefletch.github.io
-url: https://danielthefletch.github.io
-baseurl: /jekyll-test/
+# GitHub pages
+title: "Jekyll Test"
